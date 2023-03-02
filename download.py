@@ -47,7 +47,5 @@ def download_images(search_string, min_size_kb=1, large_images_only=True):
         print("An error occurred while downloading the images")
 
 # Test the function
-#search_string = "video in-game screen capture"
-#search_string = '("ukraine" or "middle east" or "israeli") weapon'
-search_string = 'wedding middle east'
+search_string = '("ukraine" or "middle east") wedding'
 download_images(search_string, min_size_kb=50)
